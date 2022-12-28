@@ -1,0 +1,13 @@
+.book__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 380px;
+    margin: 0 auto;
+}
+.book__column {
+    &:first-child {
+        display: flex;
+    }
+    margin-bottom: 15px;
+}
